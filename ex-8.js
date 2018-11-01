@@ -25,4 +25,4 @@ function Exercise8() {
 
 //feel free to ignore this:
 var x = Exercise8
-typeof module == 'undefined' ? x().ex(x.posts, x.indexToRemove) : module.exports = x
+typeof module == 'undefined' ? x().ex(x().posts, x().indexToRemove) : module.exports = x

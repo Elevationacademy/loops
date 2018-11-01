@@ -14,7 +14,7 @@ function Exercise7() {
         //Write your logic here (between the curly braces of `ex`)
     }
 
-    return { ex }
+    return { ex, people }
 }
 
 //feel free to ignore this:
