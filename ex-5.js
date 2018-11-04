@@ -10,11 +10,6 @@ function Exercise5() {
 
     const ex = function (emails) {
         //Write your logic here (between the curly braces of `ex`)
-        while (emails.length > 0) {
-            console.log(emails[0].message)
-            console.log("Sent email to " + emails[0].name)
-            emails.splice(0, 1)
-        }
     }
 
     return { ex, emails }

@@ -10,13 +10,6 @@ function Exercise8() {
     ]
 
     const ex = function (posts, indexToRemove) {
-        for(let p in posts){
-            let post = posts[p]
-            if(post.id == 2){
-                indexToRemove = 1
-            }
-        }
-        posts.splice(indexToRemove,1)
         //Write your logic here (between the curly braces of `ex`)
     }
 

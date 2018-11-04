@@ -3,15 +3,11 @@
 function Exercise1() {
 
     //vv Create your arrays here vv
-    const names = ["rob"]
-    const ages = [1]
+    
     //^^Create your arrays here^^ 
 
     const ex = function (names, ages) {
         //Write your logic here (between the curly braces of `ex`)
-        for (let i in names) {
-            console.log(`${names[i]} is ${ages[i]} years old`)
-        }
     }
 
     return { ex, names, ages }

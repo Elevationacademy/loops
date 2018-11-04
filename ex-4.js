@@ -2,12 +2,10 @@
 
 function Exercise4() {
     //vv Create your variables here vv
-    const nums = []
+    
     //^^Create your variables here^^ 
 
     const ex = function (nums) {
-        for (let i = 0; i < 100; i++) { nums.push(i + 1) }
-        console.log(nums)
         //Write your logic here (between the curly braces of `ex`)
     }
 

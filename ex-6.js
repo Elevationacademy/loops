@@ -6,9 +6,6 @@ function Exercise6() {
     const people = []
 
     const ex = function (names, ages) {
-        for (let i in names) {
-            people.push({ name: names[i], age: ages[i] })
-        }
         //Write your logic here (between the curly braces of `ex`)
     }
 

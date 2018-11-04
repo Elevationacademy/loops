@@ -4,7 +4,7 @@ function Exercise3() {
     const nums = [30, 16, -4]
 
     const ex = function (nums) {
-        console.log(nums.reduce((s, n) => s + n) / nums.length)
+
     }
 
     return { ex, nums }

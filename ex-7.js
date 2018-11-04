@@ -8,9 +8,6 @@ function Exercise7() {
     ]
 
     const ex = function (people) {
-        for(let p of people){
-            console.log(p.name + " is " + p.age + " years old")
-        }
         //Write your logic here (between the curly braces of `ex`)
     }
 

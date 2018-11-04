@@ -2,13 +2,10 @@
 
 function Exercise2() {
     //vv Create your variables here vv
-    const nums = [2, 1, 4]
+    
     //^^Create your variables here^^ 
 
     const ex = function (nums) {
-        let sum = 0
-        for (let n of nums) { sum += n }
-        console.log(sum)
         //Write your logic here (between the curly braces of `ex`)
     }
 
