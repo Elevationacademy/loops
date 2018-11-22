@@ -147,17 +147,17 @@
   "type": "test",
   "taskId": "test-2641380014",
   "source": {
-   "name": "Exercise 8",
+   "name": "Extension Exercise 1",
    "showName": true,
    "bloomsObjectiveLevel": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
-   "instructions": "Given this code:\n\n```javascript\nlet indexToRemove\n\nconst posts = [\n  {id: 1, text: \"Love this product\"},\n  {id: 2, text: \"This is the worst. DON'T BUY!\"},\n  {id: 3, text: \"So glad I found this. Bought four already!\"}\n]\n```\n\nWrite some code that\n\n1.  Finds the _index_ of the post in `posts` with an `id` of 2 (loop over `posts` to find it)\n2.  Stores the index in `indexToRemove`\n3.  Removes the post at that index\n\n  \nObviously, **do not do `posts.splice(1, 1)`** - you have to _find_ the post to remove! (You _should_ use `splice`, though)",
+   "instructions": "Given this code:\n\n```javascript\nlet indexToRemove\n\nconst posts = [\n  {id: 1, text: \"Love this product\"},\n  {id: 2, text: \"This is the worst. DON'T BUY!\"},\n  {id: 3, text: \"So glad I found this. Bought four already!\"}\n]\n```\n\nWrite some code that\n\n1.  Finds the _index_ of the post in `posts` with an `id` of 2 (loop over `posts` to find it)\n2.  Stores the index in `indexToRemove`\n3.  Removes the post at that index\n\n  \nObviously, **do not do `posts.splice(1, 1)`** - you have to _find_ the post to remove! (You _should_ use `splice`, though)\n\nThis exercise is **optional**, however you can click on Check It to see if you got it right.",
    "command": "node .guides/.test/test-runner ex-8",
    "learningObjectives": "",
-   "points": 1,
+   "points": 999,
    "timeoutSeconds": 40
   }
  },
@@ -165,17 +165,17 @@
   "type": "test",
   "taskId": "test-580169128",
   "source": {
-   "name": "Exercise 9",
+   "name": "Exercise Exercise 2",
    "showName": true,
    "bloomsObjectiveLevel": "",
    "guidance": "",
    "showGuidanceAfterResponse": false,
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
-   "instructions": "Given this array:\n\n```javascript\nconst posts = [\n  {\n    id: 1, \n    text: \"Love this product\",\n    comments: []},\n  { \n    id: 2, \n    text: \"This is the worst. DON'T BUY!\", \n    comments: [{id: 1, text: \"Idiot has no idea\"}, {id: 2, text: \"I agree!\"}, {id: 3, text: \"Fool!\"}]\n  },\n  {\n    id: 3, \n    text: \"So glad I found this. Bought four already!\",\n    comments: []}\n]\n```\n\nYou are given `2` as the ID of a _post_. You must write some code that finds the _comment_ with an ID of `2`, and remove just that one comment.",
+   "instructions": "Given this array:\n\n```javascript\nconst posts = [\n  {\n    id: 1, \n    text: \"Love this product\",\n    comments: []},\n  { \n    id: 2, \n    text: \"This is the worst. DON'T BUY!\", \n    comments: [{id: 1, text: \"Idiot has no idea\"}, {id: 2, text: \"I agree!\"}, {id: 3, text: \"Fool!\"}]\n  },\n  {\n    id: 3, \n    text: \"So glad I found this. Bought four already!\",\n    comments: []}\n]\n```\n\nYou are given `2` as the ID of a _post_. You must write some code that finds the _comment_ with an ID of `2`, and remove just that one comment.\n\nThis exercise is **optional**, however you can click on Check It to see if you got it right.",
    "command": "node .guides/.test/test-runner ex-9",
    "learningObjectives": "",
-   "points": 1,
+   "points": 999,
    "timeoutSeconds": 40
   }
  },
@@ -183,7 +183,7 @@
   "type": "test",
   "taskId": "test-3811212618",
   "source": {
-   "name": "Extension Exercise ",
+   "name": "Extension Exercise 3",
    "showName": true,
    "bloomsObjectiveLevel": "",
    "guidance": "",
