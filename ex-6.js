@@ -14,4 +14,4 @@ function Exercise6() {
 
 //feel free to ignore this:
 var x = Exercise6
-typeof module == 'undefined' ? x().ex(x.names, x.ages) : module.exports = x
+typeof module == 'undefined' ? x().ex(x().names, x().ages) : module.exports = x
