@@ -1,0 +1,434 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2393660861",
+  "source": {
+   "name": "Exercise 1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create two arrays of the same length. One called <code>names</code>, and one called <code>ages</code><br>\nUsing <b>one</b> for loop, print out \"X is Y years old\" for each pair of name and age.<br>\n<b>Hint</b>: since you want to access items from different arrays at the same <b>index</b>... which for loop should you use? Also, you'll be <b>concatenating</b> again.",
+   "command": "node .guides/.test/test-runner ex-1",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2604350909",
+  "source": {
+   "name": "Exercise 2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create an array of numbers called `nums`.  \nWrite a loop that adds up all the numbers in the array.  \nPrint out the final sum.  \n**Hint 1:** as part of your logic, start with a variable `let sum = 0` **before** your loop.  \n**Hint 2:** remember that you can add to a number using `+=`",
+   "command": "node .guides/.test/test-runner ex-2",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3442435734",
+  "source": {
+   "name": "Exercise 3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Using the same array of numbers above, write some code that calculates the average of the numbers. Make sure to use `.length!`",
+   "command": "node .guides/.test/test-runner ex-3",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3971437797",
+  "source": {
+   "name": "Exercise 4",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Create an empty array called `nums`  \nWrite a loop that adds the numbers 1, 2, 3,..., 100 to the array  \nThink about which loop you want to use.  \nConsole log `nums` to check your work.",
+   "command": "node .guides/.test/test-runner ex-4",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2080597282",
+  "source": {
+   "name": "Exercise 5",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Given the following array:\n\n```javascript\nconst emails = [\n    { name: \"Jessie\", message: \"Congrats on the promotion!\" },\n    { name: \"Valerie\", message: \"Good luck with the space mission\" },\n    { name: \"Marcus\", message: \"You've been credited for your performance\" }\n]\n```\n  \nWrite a **while** loop that loops through each object in `emails` and\n\n1.  Prints out the `message`\n2.  Prints out \"Sent email to \\`name\\`\" (use the `name` property)\n3.  Removes the object from the array\n\nThe loop should end when `emails` is empty.\n\n**Hint:** Since you're removing each object, you can always just work on the first object in `emails`",
+   "command": "node .guides/.test/test-runner ex-5",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2901364645",
+  "source": {
+   "name": "Exercise 6",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Given the following setup:\n\n```javascript\nconst names = [\"Ashley\", \"Donovan\", \"Lucas\"]\nconst ages = [23, 47, 18]\nconst people = []\n```\n\nWrite a loop that populates (adds to) `people` with objects that look like this:  \n`{name: \"Ashley\", age: 23}` - for each pair in `names` and `ages`\n\nUltimately, when you console log `people`, it should look like this:\n\n```javascript\n[\n  {name: \"Ashley\", age: 23},\n  {name: \"Donovan\", age: 47},\n  {name: \"Lucas\", age: 18}\n]\n```",
+   "command": "node .guides/.test/test-runner ex-6",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1200305044",
+  "source": {
+   "name": "Exercise 7",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Based off the `people` array from before, write a loop that prints out \"Ashley is 23 years old\", \"Donovan is 47 years old\", etc.\nAgain, consider which loop is most appropriate.",
+   "command": "node .guides/secure/.test/test-runner ex-7",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1478239212",
+  "source": {
+   "name": "Exercise 7",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Based off the `people` array from before, write a loop that prints out \"Ashley is 23 years old\", \"Donovan is 47 years old\", etc.\nAgain, consider which loop is most appropriate.\n\nNote that this is _different_ from Exercise 1 ;)",
+   "command": "node .guides/.test/test-runner ex-7",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2641380014",
+  "source": {
+   "name": "Exercise 8",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Given this code:\n\n```javascript\nlet indexToRemove\n\nconst posts = [\n  {id: 1, text: \"Love this product\"},\n  {id: 2, text: \"This is the worst. DON'T BUY!\"},\n  {id: 3, text: \"So glad I found this. Bought four already!\"}\n]\n```\n\nWrite some code that\n\n1.  Finds the _index_ of the post in `posts` with an `id` of 2 (loop over `posts` to find it)\n2.  Stores the index in `indexToRemove`\n3.  Removes the post at that index\n\n  \nObviously, **do not do `posts.splice(1, 1)`** - you have to _find_ the post to remove! (You _should_ use `splice`, though)",
+   "command": "node .guides/.test/test-runner ex-8",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-580169128",
+  "source": {
+   "name": "Exercise 9",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Given this array:\n\n```javascript\nconst posts = [\n  {\n    id: 1, \n    text: \"Love this product\",\n    comments: []},\n  { \n    id: 2, \n    text: \"This is the worst. DON'T BUY!\", \n    comments: [{id: 1, text: \"Idiot has no idea\"}, {id: 2, text: \"I agree!\"}, {id: 3, text: \"Fool!\"}]\n  },\n  {\n    id: 3, \n    text: \"So glad I found this. Bought four already!\",\n    comments: []}\n]\n```\n\nYou are given `2` as the ID of a _post_. You must write some code that finds the _comment_ with an ID of `2`, and remove just that one comment.",
+   "command": "node .guides/.test/test-runner ex-9",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3811212618",
+  "source": {
+   "name": "Extension Exercise ",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "There is something called [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys) - read about this, and then do the following exercise:\n\nGiven the object below:\n\n```javascript\nconst dictionary = {\n  \"A\": [\"Aardvark\", \"Abacus\", \"Actually\", \"Atomic\"],\n  \"B\": [\"Banana\", \"Bonkers\", \"Brain\", \"Bump\"],\n  \"C\": [\"Callous\", \"Chain\", \"Coil\", \"Czech\"]\n}\n```\n\nWrite some code that prints out the following:\n\n```javascript\nWords that begin with  A:\n    Aardvark\n    Abacus\n    Actually\n    Atomic\nWords that begin with  B:\n    Banana\n    Bonkers\n    Brain\n    Bump\nWords that begin with  C:\n    Callous\n    Chain\n    Coil\n    Czech\n```\n\n**Hint 1:** You will have to use what's known as a **double for loop** - that means a for loop _within_ a for loop.  \n**Hint 2:** Start small; only print out \"Words that begin with...\" at first, then keep going\n\n**Note**: this exercise is not tested automatically, and will always show up as passed.",
+   "command": "",
+   "learningObjectives": "",
+   "points": 1,
+   "timeoutSeconds": 40
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1141065282",
+  "source": {
+   "name": "Question #1",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "The difference between `for in` and `for of` is that...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "643ba5da-34f7-9bd3-96ca-3e36ae29b9aa",
+     "correct": false,
+     "answer": "The `in` loop iterates over the values of the array, and the `of` over the indexes"
+    },
+    {
+     "_id": "8f378943-f480-322d-5712-770349807c6d",
+     "correct": false,
+     "answer": "The `in` loop doesn’t need an array, the `of` loop does"
+    },
+    {
+     "_id": "92ea37bd-d638-3e66-c568-07d92e03466f",
+     "correct": true,
+     "answer": "The `in` loop iterates over the indexes of the array, and the `of` over the values"
+    },
+    {
+     "_id": "37f0577c-f442-0574-f806-fb1bd5d73b8e",
+     "correct": false,
+     "answer": "The `in` loops needs an array, the `of` doesn’t"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3022523307",
+  "source": {
+   "name": "Question #2",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "The type of loop most prone to an infinite loop error is...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "f2200cbd-9c86-04b3-fa8d-6caae2271787",
+     "correct": false,
+     "answer": "The `in` loop"
+    },
+    {
+     "_id": "4ccd5787-bbad-6bf6-832b-72040070d54b",
+     "correct": false,
+     "answer": "The `of` loop"
+    },
+    {
+     "_id": "800b3789-bf5b-c99a-0d30-1f48ba793524",
+     "correct": false,
+     "answer": "The `let i = 0` loop"
+    },
+    {
+     "_id": "e5d71e10-9121-5266-32c7-05601841daf3",
+     "correct": true,
+     "answer": "The `while` loop"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2846924691",
+  "source": {
+   "name": "Question #3",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "To access two separate arrays of equal lengths, you would most likely use...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "b4289253-3bfc-f5bb-8f3b-90afcd2eb41d",
+     "correct": true,
+     "answer": "The `in` loop"
+    },
+    {
+     "_id": "867831e6-3374-2398-ad79-5ca50767be51",
+     "correct": false,
+     "answer": "The `of` loop"
+    },
+    {
+     "_id": "ff51d6bd-96f1-735d-9241-aa53682a3200",
+     "correct": false,
+     "answer": "The `while` loop"
+    },
+    {
+     "_id": "0cc2795f-90bd-07fa-79cd-407a063b081f",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-3911123271",
+  "source": {
+   "name": "Question #4",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "Given the following array: \n```javascript\nlet a = [ \n\t{name: “Hewitt”, \n\tage: 34}, \n\t{name: “Charlene, \n\tage: 21} \n]\n```\nWhat would the following loop print?\n```javascript\nfor(let p in name){\n  console.log(p.name)\n}\n```",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "268921bd-e4aa-97fb-6592-39b04a4b2de5",
+     "correct": false,
+     "answer": "Hewitt, then Charlene"
+    },
+    {
+     "_id": "4adad791-e2b9-2d84-73e3-6343d5f756d5",
+     "correct": false,
+     "answer": "Charlene, then Hewitt"
+    },
+    {
+     "_id": "59f7a232-fbe8-ebda-f41d-f9ecfdf82500",
+     "correct": false,
+     "answer": "Both Charlene and Hewitt, the order isn’t guaranteed with objects"
+    },
+    {
+     "_id": "cecbf3cb-89bf-2f4f-7cc7-5f5ac07dc6d5",
+     "correct": true,
+     "answer": "undefined, then undefined"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2061418233",
+  "source": {
+   "name": "Question #5",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "What can you say about the following loop?\n```javascript\nfor(let i = 100; i > 0; i++){\n\tconsole.log(i)\n}\n```",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "d3d86e6c-bb8f-d20d-50d8-dab5c899cd93",
+     "correct": false,
+     "answer": "It will print all the numbers between 0 and 100 (excluding 0 and 100)"
+    },
+    {
+     "_id": "876aebdf-30b5-16eb-3f76-32498e479e33",
+     "correct": false,
+     "answer": "It will print all the numbers between 0 and 100 (including 0 and 100)"
+    },
+    {
+     "_id": "51c9b3c8-2e53-adc4-f10e-4f2db77db550",
+     "correct": true,
+     "answer": "It will cause an infinite loop"
+    },
+    {
+     "_id": "4b4caf99-a160-6c78-ef49-47597f32916c",
+     "correct": false,
+     "answer": "It will print all the numbers between 100 and 200"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1733686536",
+  "source": {
+   "name": "Question #6",
+   "showName": true,
+   "bloomsObjectiveLevel": "",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": true,
+   "instructions": "A while loop will end when...",
+   "points": "999",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "learningObjectives": "",
+   "answers": [
+    {
+     "_id": "ea1bd606-43b8-36d3-c58e-90bd574807e9",
+     "correct": false,
+     "answer": "It finishes iterating over an array"
+    },
+    {
+     "_id": "42317c63-5dd7-5a9d-b368-92ac7ab4ffe2",
+     "correct": true,
+     "answer": "A certain condition is met inside the parentheses ( )"
+    },
+    {
+     "_id": "888c6662-8c97-f6c6-ec83-a15b671015d2",
+     "correct": false,
+     "answer": "It finishes all its tasks"
+    },
+    {
+     "_id": "893b69ff-34db-ad69-aabf-f3c2eb262957",
+     "correct": false,
+     "answer": "None of the above"
+    }
+   ]
+  }
+ }
+]
